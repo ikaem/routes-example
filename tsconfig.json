@@ -1,0 +1,23 @@
+{
+  // https://www.devextent.com/import-es-modules-in-nodejs-with-typescript-and-babel/
+  "compilerOptions": {
+    "target": "es5",
+    "lib": ["ES2019"],
+    // "noEmit": true,
+    "allowJs": true,
+    "skipLibCheck": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "module": "ESNext",
+    "esModuleInterop": true,
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "moduleResolution": "node",
+    "allowSyntheticDefaultImports": true
+  },
+  "ts-node": {
+    "esm": true
+  },
+  "include": ["src/**/*.ts"],
+  "exclude": ["node_modules/**/*", "dist/**/*"]
+}
