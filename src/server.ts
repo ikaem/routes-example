@@ -1,13 +1,10 @@
-import { app } from "./app.js";
+import { envVars } from '../config/envVars.js';
+import { app } from './app.js';
 
+const port = envVars.PORT;
 
 const start = async () => {
-  if (!process.env.PORT) throw new Error('PORT IS NOT SPECIFIED');
-
-  const port = process.env.PORT;
-
   app.listen(port, () => console.log(`Server listening on port ${port}`));
 };
-
 
 start();

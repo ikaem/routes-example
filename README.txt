@@ -16,3 +16,9 @@ stopped at
   - login 
   - register
   - and so on...
+
+
+- validation includes auth validaton too
+- create custom error for validation 
+- creat3e that validation 
+- then include validation request middleware in each validation for each feature - just return it in array of validation

@@ -5,13 +5,16 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "dev": "nodemon -r dotenv/config src/server.ts"
+    "dev": "nodemon -r dotenv/config src/server.ts",
+    "db": "json-server --watch data/db.json"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
     "express": "^4.18.1",
+    "express-validator": "^6.14.2",
+    "json-server": "^0.17.0",
     "ts-node": "^10.9.1"
   },
   "devDependencies": {
