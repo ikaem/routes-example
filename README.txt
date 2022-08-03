@@ -4,6 +4,9 @@ using Nodemon with ts-node
 architecture best practivces
 https://blog.logrocket.com/the-perfect-architecture-flow-for-your-next-node-js-project/
 
+async error handling 
+https://medium.com/@utkuu/error-handling-in-express-js-and-express-async-errors-package-639c91ba3aa2
+
 stopped at 
 - need to create controllers now
 - then validation

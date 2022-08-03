@@ -1,10 +1,8 @@
-export class Note {
-  constructor(
-    public id: string,
-    public title: string,
-    public content: string,
-    public createdAt: string,
-    public editedat: string,
-    public ownerId: string
-  ) {}
+export interface Note {
+  id: string;
+  title: string;
+  content: string;
+  createdAt: string;
+  editedat: string;
+  ownerId: string;
 }
